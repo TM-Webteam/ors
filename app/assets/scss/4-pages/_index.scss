@@ -1,0 +1,377 @@
+/*
+  ----------------
+  TOP
+  ----------------
+*/
+
+.top {
+
+  .hero {
+    background: url("../img/top/bg-hero.webp") 50% / cover no-repeat;
+    height: 540px;
+    @media #{$sp} {
+      background: url("../img/top/bg-hero-sp.webp") 50% 0 / cover no-repeat;
+      text-align: center;
+      height: auto;
+    }
+    .containers {
+      @media #{$sp} {
+        padding: 150px 15px 35px;
+      }
+    }
+    &__cat {
+      margin-bottom: 20px;
+      @media #{$sp} {
+        margin-bottom: 15px;
+      }
+      .cat {
+        font-size: 13px;
+        font-weight: 500;
+        width: 140px;
+        padding: 10px;
+        background: #50B4C8;
+        border: 0;
+        @media #{$sp} {
+          width: auto;
+          font-size: 10px;
+          padding: 5px;
+        }
+      }
+    }
+    &__sub {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      @media #{$sp} {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+    }
+    &__lead {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 60px;
+      @media #{$sp} {
+        font-size: 14px;
+        margin-bottom: 30px;
+      }
+      span {
+        font-size: 20px;
+        font-weight: bold;
+        color: #F7701B;
+        @media #{$sp} {
+          font-size: 16px;
+        }
+      }
+    }
+    &__btn {
+      .ctabtn {
+        width: 400px;
+        margin: 0;
+        @media #{$sp} {
+          margin: 0 auto;
+          width: 85%;
+          &:not(:last-child) {
+            margin-bottom: 30px;
+          }
+        }
+        .more.wp-thumb {
+          font-size: 20px;
+          width: 400px;
+          @media #{$sp} {
+            width: 100%;
+            font-size: 14px;
+          }
+        }
+      } 
+    }
+  }
+
+  .product {
+    .item {
+      margin-bottom: 50px;
+      @media #{$sp} {
+        margin-bottom: 25px;
+      }
+      &__box {
+        width: calc(90% / 2 - 20px);
+        @media #{$sp} {
+          width: 100%;
+        }
+        &:not(:last-child) {
+          position: relative;
+          @media #{$sp} {
+            margin-bottom: 50px;
+          }
+          &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: -50px;
+            margin: auto;
+            width: 64px;
+            height: 40px;
+            background: url("../img/top/arrow.svg") 50% / contain no-repeat;
+            @media #{$sp} {
+              top: auto;
+              bottom: -50px;
+              left: 0;
+              right: 0;
+              margin: auto;
+              width: 30px;
+              height: 54px;
+              transform:rotate(90deg);
+            }
+          }
+        }
+      }
+    }
+    .txt-link {
+      text-align: center;
+      a {
+        padding-left: 35px;
+        position: relative;
+        font-weight: bold;
+        color: #F7701B;
+        text-decoration: underline;
+        &::before {
+          content: "";
+          position: absolute;
+          top: 5px;
+          left: 0;
+          width: 27px;
+          height: 23px;
+          background: url("../img/common/icon-txt-link.svg") 50% / contain no-repeat;
+        }
+      }
+    }
+  }
+
+  .features {
+    
+    .card {
+      margin-bottom: 40px;
+      @media #{$sp} {
+        margin-bottom: 20px;
+      }
+      &__box {
+        width: calc(100% / 4 - 20px);
+        padding: 30px;
+        background: #fff;
+        border-top: 4px solid #50B4C8;
+        @media #{$sp} {
+          width: 100%;
+          padding: 15px;
+          &:not(:last-child) {
+            margin-bottom: 15px;
+          }
+        }
+        &--img {
+          width: 100px;
+          height: 100px;
+          margin: 0 auto 20px;
+          @media #{$sp} {
+            margin: 0 auto 15px;
+            width: 60px;
+            height: 60px;
+          }
+        }
+        &--ttl {
+          font-size: 20px;
+          font-weight: bold;
+          text-align: center;
+          margin-bottom: 20px;
+          @media #{$sp} {
+            font-size: 16px;
+            margin-bottom: 15px;
+            height: auto;
+          }
+        }
+        &--txt {
+  
+        }
+      }
+    }
+    .wp-card {
+      margin-top: 70px;
+      padding: 40px;
+      background: #fff;
+      position: relative;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+      @media #{$sp} {
+        margin-top: 30px;
+        padding: 20px;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 50px 50px 0 0;
+        border-color: #F7701B transparent transparent transparent;
+        @media #{$sp} {
+          border-style: solid;
+          border-width: 25px 25px 0 0;
+          border-color: #F7701B transparent transparent transparent;
+        }
+      }
+      &__img {
+        width: 32%;
+        text-align: center;
+        @media #{$sp} {
+          width: 100%;
+        }
+        img {
+          width: auto;
+          height: 230px;
+          overflow: hidden;
+          position: relative;
+          @media #{$sp} {
+            height: 200px;
+          }
+          &::before {
+            position: absolute;
+            top: 0;
+            left: -75%;
+            z-index: 2;
+            display: block;
+            content: '';
+            width: 50%;
+            height: 100%;
+            background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+            background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+            -webkit-transform: skewX(-25deg);
+            transform: skewX(-25deg);
+          } 
+        }
+      }
+      &__box {
+        width: 37%;
+        text-align: center;
+        @media #{$sp} {
+          width: 100%;
+        }
+        &--sub {
+          font-size: 22px;
+          margin-bottom: 20px;
+          @media #{$sp} {
+            font-size: 16px;
+            margin-bottom: 15px;
+          }
+        }
+        &--ttl {
+          font-size: 32px;
+          font-weight: bold;
+          margin-bottom: 30px;
+          @media #{$sp} {
+            font-size: 18px;
+            margin-bottom: 15px;
+          }
+        }
+        .more {
+          transition: all .3s;
+        }
+      }
+      &:hover {
+        opacity: 1;
+        .more {
+          background-position: 99% 50%;
+        }
+      }
+    }
+  }
+
+  .sec-column {
+    .ttl-secondary {
+      margin-bottom: 40px;
+      @media #{$sp} {
+        margin-bottom: 20px;
+      }
+    }
+    .grid {
+      &::before {
+        content: "";
+        width: calc(100% / 3 - 20px);
+        order: 1;
+        height: 0;
+        @media #{$sp} {
+          width: 100%;
+        }
+      }
+      &::after {
+        content: "";
+        width: calc(100% / 3 - 20px);
+        height: 0;
+        @media #{$sp} {
+          width: 100%;
+        }
+      }
+      .card {
+        display: block;
+        width: calc(100% / 3 - 20px);
+        background: #fff;
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          bottom: 10px;
+          right: 10px;
+          width: 19px;
+          height: 17px;
+          background: url("../img/common/link-arrow-o.svg") 50% / contain no-repeat;
+        }
+        @media #{$sp} {
+          width: 100%;
+        }
+        &:hover {
+          opacity: 1;
+          .card__img img {
+            transform:scale(1.1,1.1);
+          }
+          .card__box--ttl {
+            text-decoration: underline;
+          }
+        }
+        &__img {
+          overflow: hidden;
+          img {
+            aspect-ratio: 3 / 2;
+            object-fit: cover;
+            transition: all .3s;
+          }
+        }
+        &__box {
+          padding: 30px;
+          &--cat {
+            // margin-bottom: 10px;
+          }
+          &--ttl {
+            font-weight: 700;
+            margin-bottom: 15px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+          }
+          &--time {
+            // font-size: 14px;
+            // @media #{$sp} {
+            //   font-size: 12px;
+            // }
+          }
+        }
+      }
+    }
+    .more {
+      margin-top: 40px;
+      @media #{$sp} {
+        margin-top: 20px;
+      }
+    }
+  }
+
+}
