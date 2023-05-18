@@ -1,0 +1,187 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main class="strength">
+
+  <section class="hero">
+    <div class="containers core">
+      <div class="hero__box">
+        <h1>
+          <div class="ttl-primary">当社の強み</div>
+          <div class="hero__lead">片持ち屋根による利便性の高さと、<br class="sp-only">それを可能にしている高い構造技術力、<br class="pc-only">
+            はじめての方でも安心のフルサポート力が当社の強みです。</div>
+        </h1>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="symmetry bg-gray">
+    <div class="containers">
+      <div class="flex aiC sp-reverse item">
+        <summary class="item__box">
+          <div class="item__box--num">強み1</div>
+          <h2 class="item__box--ttl">片持ち屋根のため駐車が<br class="sp-only">しやすい</h2>
+          <div class="item__box--txt">駐車スペース内に柱が配置することはないため自由にレイアウト可能であり、駐車のしやすさから利用者の利便性も高い点が特長です。また、駐車場の雨や日よけにもなります。
+          </div>
+        </summary>
+        <figure class="item__img"><img src="/assets/img/pages/img-strength01.png" alt="強み1 片持ち屋根のため駐車がしやすい"></figure>
+      </div>
+
+      <div class="flex aiC item">
+        <figure class="item__img"><img src="/assets/img/pages/img-strength02.png" alt="強み2 高い構造技術力"></figure>
+        <summary class="item__box">
+          <div class="item__box--num">強み2</div>
+          <h2 class="item__box--ttl">高い構造技術力</h2>
+          <div class="item__box--txt">免震構造の第一人者である東京理科大高橋教授の設計による製品です。２３年４月任意評定を取得していますので大幅に建築確認申請が簡略化されます。</div>
+        </summary>
+      </div>
+
+      <div class="flex aiC sp-reverse item">
+        <summary class="item__box">
+          <div class="item__box--num">強み3</div>
+          <h2 class="item__box--ttl">設置・施工～建築確認申請<br class="sp-only">までフルサポート</h2>
+          <div class="item__box--txt">設置・施工はもちろん、建築確認申請のサポートまで行います。また必要に応じて、地盤調査などのサポートも可能です。</div>
+        </summary>
+        <figure class="item__img"><img src="/assets/img/pages/img-strength03.png" alt="強み3 設置・施工～建築確認申請までフルサポート">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="product">
+    <div class="containers">
+      <h2 class="ttl-secondary">東京理科大 高橋 治 教授考案の<br class="sp-only">ソーラーカーポート</h2>
+      <div class="lead">BGPソーラーカーポートは東京理科大学 工学部建築学科の高橋治教授が考案・開発したソーラーカーポートです。<br>
+        横柱がないので駐車しやすいスマートなソーラーカーポートシステムであり、レイアウトの自由度や組み立て・解体が容易で<br
+          class="pc-only">工期が短縮できる点や、コンクリートを使用しないため、設置工事の際のCO2排出が無く、環境に優しい点が特長です。</div>
+
+      <ul class="attention-list">
+        <li><span class="border"><b>横柱がないので駐車しやすい</b></span>スマートなソーラーカーポートシステム</li>
+        <li>23年4月任意評定取得予定（片流れ型）<span class="arrow-to-right"><span class="border"><b>大幅に建築確認申請が簡略化！</b></span></span>
+        </li>
+      </ul>
+
+      <div class="profile">
+        <div class="flex fS item">
+          <figure class="item__img"><img src="/assets/img/pages/img-strength04.png" alt="高橋 治 教授"></figure>
+          <div class="item__box">
+            <h2 class="item__box--ttl"><b>高橋 治</b>教授</h2>
+            <div class="item__box--lead">建築制振用オイルダンパーの開発者であり建築構造力学の世界的権威
+              世界初の三次元免震建物を構造設計し実現</div>
+            <p class="item__box--txt">
+              「構造技術で社会をデザインする」ことをMissionに掲げ、建築制振用オイルダンパーの開発をはじめ、地震対策から災害対策まで幅広く貢献。現在は「構造技術で社会をデザインする」ことに賛同する、設計者・施工者・機械メーカー・化学メーカーなどの幅広い協働を実施してきている。
+            </p>
+          </div>
+        </div>
+        <div class="flex jcC item-under">
+          <div class="item-under__box">
+            <h3 class="item-under__box--ttl">経歴</h3>
+            <ul class="item-under__box--list">
+              <li>• 東京理科大学　工学部建築学科：教授</li>
+              <li>• 東京理科大学　先端都市防災研究部門：部門⻑</li>
+              <li>• 東京理科大学　合気道部：顧問</li>
+              <li>• (一社)新構造技術普及協会：相談役</li>
+              <li>• 株式会社サイエンス構造会⻑</li>
+              <li>• 日本建築学会FRP合成構造設計法小委員会　委員就任</li>
+            </ul>
+          </div>
+          <div class="item-under__box">
+            <h3 class="item-under__box--ttl">受賞歴</h3>
+            <div class="flex fdC jcC item-under__box--list">
+              <dl>
+                <dt>2012年6月</dt>
+                <dd>「三次元免震システムの開発と集合住宅への適用」で<br>日本建築学会　学会賞（技術）受賞</dd>
+              </dl>
+              <dl>
+                <dt>2012年6月</dt>
+                <dd>阿佐ヶ谷「知粋館」で<br>第13回日本免震構造協会 協会賞（技術賞）受賞</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features bg-beige">
+    <div class="containers">
+      <h2 class="ttl-secondary">初めてご検討されるお客様でも<br>
+        ソーラーカーポートの設置を<br class="sp-only">ワンストップでサポートいたします</h2>
+      <ul class="flex gap20 card">
+        <li class="card__box">
+          <figure class="card__box--img"><img src="/assets/img/top/icon01.svg" alt="導入計画の策定"></figure>
+          <h3 class="card__box--ttl">導入計画の策定</h3>
+          <ul class="card__box--list">
+            <li>現地調査を行い、設置場所や設置台数の確認を精査</li>
+            <li>「期待できる発電量」<br>「電気代削減効果」を試算</li>
+          </ul>
+        </li>
+        <li class="card__box">
+          <figure class="card__box--img"><img src="/assets/img/top/icon02.svg" alt="建築確認申請代行"></figure>
+          <h3 class="card__box--ttl">建築確認申請代行</h3>
+          <ul class="card__box--list">
+            <li>建築確認申請作成・提出</li>
+          </ul>
+        </li>
+        <li class="card__box">
+          <figure class="card__box--img"><img src="/assets/img/top/icon03.svg" alt="設置・施工"></figure>
+          <h3 class="card__box--ttl">設置・施工</h3>
+          <ul class="card__box--list">
+            <li>地盤調査をもとにソーラーカーポートの詳細設計</li>
+            <li>ソーラーカーポートの<br>調達・工事</li>
+          </ul>
+        </li>
+        <li class="card__box">
+          <figure class="card__box--img"><img src="/assets/img/top/icon04.svg" alt="保守・点検"></figure>
+          <h3 class="card__box--ttl">保守・点検</h3>
+          <ul class="card__box--list">
+            <li>ソーラーカーポートの<br>年次点検</li>
+            <li>定期電気メンテナンス</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section class="inquiry">
+    <div class="containers">
+      <h2 class="ttl-secondary cW">ソーラーカーポートの導入・<br class="sp-only">設置に関する<br>お問合せや簡易お見積り依頼は<br
+          class="sp-only">お気軽にご連絡ください。</h2>
+      <a href="/contact/" class="more">お問合せ・簡易お見積り（無料）</a>
+      <div class="flex jcC gap20 aiC inquiry__tel">
+        <a href="tel:0120090720" class="tel">0120-09-0720</a>
+        <span>（平日：09:30～18:30）</span>
+      </div>
+      <summary class="flex aiC inquiry__box">
+        <div class="inquiry__box--txt">サービス資料やお役立ち資料を<br class="sp-only">ご希望の方はこちら</div>
+        <div class="flex inquiry__box--btn">
+          <a href="/catalog/" class="more tiny bgW"><span>サービス資料</span></a>
+          <a href="/whitepaper/" class="more tiny bgW"><span>お役立ち資料</span></a>
+        </div>
+      </summary>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}

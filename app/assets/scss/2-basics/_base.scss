@@ -36,6 +36,9 @@
       align-items: stretch;
     }
   }
+  &.fdC {
+    flex-direction: column;
+  }
   &.jcA {
     justify-content: space-around;
   }
@@ -300,4 +303,8 @@ main {
 
 .bg-beige {
   background: #F8F6F0;
+}
+
+.bg-gray {
+  background: #F6F6F6;
 }
