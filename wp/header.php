@@ -16,7 +16,7 @@
 
 <!-- Twitter Card data -->
 <!-- <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="日東エルマテリアル">
+<meta name="twitter:title" content="">
 <meta name="twitter:image:src" content=""> -->
 
 <!-- Open Graph data -->
@@ -28,6 +28,10 @@
 <meta property="og:image:width" content="">
 <meta property="og:image:height" content="">
 <meta property="og:site_name" content="<?php esc_html(bloginfo('name')) ?>"> -->
+
+<!-- Web font -->
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/ncf8fus.css">
 
 <!-- Style sheet -->
 <link rel="stylesheet" href="<?php echo assets_path() ?>css/main.css">
@@ -57,9 +61,9 @@
   </div>
   <nav class="nav-list pc-only">
     <ul class="flex nav-list-box">
-      <li><a href="" class="link">製品・サービス</a></li>
-      <li><a href="" class="link">脱炭素に取り組みたい</a></li>
-      <li><a href="" class="link">電気代を削減したい</a></li>
+      <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>bgp/" class="link">製品・サービス</a></li>
+      <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>decarbonization/" class="link">脱炭素に取り組みたい</a></li>
+      <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>energysave/" class="link">電気代を削減したい</a></li>
       <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>strength/" class="link">当社の強み</a></li>
       <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>question/" class="link">よくあるご質問</a></li>
       <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>flow/" class="link">導入までの流れ</a></li>
@@ -86,12 +90,12 @@
 
   <div id="gloval-nav" class="sp-only">
     <ul class="list">
-      <li><a href="">製品・サービス</a></li>
-      <li><a href="">脱炭素に取り組みたい</a></li>
-      <li><a href="">電気代を削減したい</a></li>
-      <li><a href="">当社の強み</a></li>
-      <li><a href="">よくあるご質問</a></li>
-      <li><a href="">導入までの流れ</a></li>
+      <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>bgp/">製品・サービス</a></li>
+      <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>decarbonization/">脱炭素に取り組みたい</a></li>
+      <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>energysave/">電気代を削減したい</a></li>
+      <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>strength/">当社の強み</a></li>
+      <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>question/">よくあるご質問</a></li>
+      <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>flow/">導入までの流れ</a></li>
       <li><a href="#" class="disabled">お役立ち情報</a></li>
       <li class="child"><a href="<?php echo esc_url( home_url( '/' ) ); ?>whitepaper/">お役立ち資料</a></li>
       <li class="child"><a href="<?php echo esc_url( home_url( '/' ) ); ?>column/">お役立ちコラム</a></li>

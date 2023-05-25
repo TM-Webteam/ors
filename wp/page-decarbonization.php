@@ -97,8 +97,8 @@ get_header(); ?>
         国による勧告、公表、命令が行われ、命令に違反した場合には100万円以下の罰金に処せられます。<br>
         炭素税の導入による増税も検討されています。</div>
       <div class="attention">
-        <span class="border"><b>ソーラーカーポートの設置</b></span>は<br>
-        CO2排出に伴う<span class="border"><b>増税や罰則の回避</b></span>にも貢献します
+        <span class="marker"><b>ソーラーカーポートの設置</b></span>は<br>
+        CO2排出に伴う<span class="marker"><b>増税や罰則の回避</b></span>にも<br class="sp-only">貢献します
       </div>
     </div>
   </section>
@@ -123,7 +123,7 @@ get_header(); ?>
       </div>
       <ul class="flex gap20 card">
         <li class="card__box">
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon01.svg" alt="導入計画の策定"></figure>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/pages/icon01.svg" alt="導入計画の策定"></figure>
           <h3 class="card__box--ttl">導入計画の策定</h3>
           <ul class="card__box--list">
             <li>現地調査を行い、設置場所や設置台数の確認を精査</li>
@@ -131,14 +131,14 @@ get_header(); ?>
           </ul>
         </li>
         <li class="card__box">
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon02.svg" alt="建築確認申請代行"></figure>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/pages/icon02.svg" alt="建築確認申請代行"></figure>
           <h3 class="card__box--ttl">建築確認申請代行</h3>
           <ul class="card__box--list">
             <li>建築確認申請作成・提出</li>
           </ul>
         </li>
         <li class="card__box">
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon03.svg" alt="設置・施工"></figure>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/pages/icon03.svg" alt="設置・施工"></figure>
           <h3 class="card__box--ttl">設置・施工</h3>
           <ul class="card__box--list">
             <li>地盤調査をもとにソーラーカーポートの詳細設計</li>
@@ -146,7 +146,7 @@ get_header(); ?>
           </ul>
         </li>
         <li class="card__box">
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon04.svg" alt="保守・点検"></figure>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/pages/icon04.svg" alt="保守・点検"></figure>
           <h3 class="card__box--ttl">保守・点検</h3>
           <ul class="card__box--list">
             <li>ソーラーカーポートの<br>年次点検</li>
@@ -179,7 +179,7 @@ get_header(); ?>
         </li>
       </ul>
       <a href="<?php echo esc_url( home_url( '/' ) ); ?>strength/" class="more bgW">詳しい情報を見る</a>
-      <a href="#" class="flex aiC jcC gap60 wp-card">
+      <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/" class="flex aiC jcC gap60 wp-card">
         <figure class="wp-card__img"><img src="<?php echo assets_path() ?>img/top/img-wp.jpg" alt="BGPソーラーカーポート"></figure>
         <summary class="wp-card__box">
           <div class="wp-card__box--sub">導入メリット・費用が3分で分かる！</div>
@@ -190,24 +190,7 @@ get_header(); ?>
     </div>
   </section>
 
-  <section class="inquiry">
-    <div class="containers">
-      <h2 class="ttl-secondary cW">ソーラーカーポートの導入・<br class="sp-only">設置に関する<br>お問合せや簡易お見積り依頼は<br
-          class="sp-only">お気軽にご連絡ください。</h2>
-      <a href="<?php echo esc_url( home_url( '/' ) ); ?>contact/" class="more">お問合せ・簡易お見積り（無料）</a>
-      <div class="flex jcC gap20 aiC inquiry__tel">
-        <a href="tel:0120090720" class="tel">0120-09-0720</a>
-        <span>（平日：09:30～18:30）</span>
-      </div>
-      <summary class="flex aiC inquiry__box">
-        <div class="inquiry__box--txt">サービス資料やお役立ち資料を<br class="sp-only">ご希望の方はこちら</div>
-        <div class="flex inquiry__box--btn">
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/" class="more tiny bgW"><span>サービス資料</span></a>
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>whitepaper/" class="more tiny bgW"><span>お役立ち資料</span></a>
-        </div>
-      </summary>
-    </div>
-  </section>
+  <?php get_template_part( 'template-parts/inquiry' ); ?>
 
 </main>
 

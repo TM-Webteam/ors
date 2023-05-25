@@ -8,18 +8,17 @@
 .energysave {
 
     .hero {
-      background: url("../img/pages/bg-hero-energysave.png") no-repeat 50% / cover;
-      height: 445px;
+      background: url("../img/energysave/bg-hero.webp") no-repeat 50% / cover;
+      height: 450px;
       @media #{$sp} {
-        background: url("../img/pages/bg-hero-energysave.png") no-repeat top right / auto 100%;
+        background: url("../img/energysave/bg-hero-sp.webp") no-repeat 50% / cover;
         text-align: center;
-        height: auto;
       }
       .containers {
         
         @media #{$sp} {
           display: block;
-          padding: 150px 15px 35px;
+          padding: 120px 15px 35px;
         }
       }
       &__cat {
@@ -37,7 +36,7 @@
           border: 0;
           @media #{$sp} {
             width: auto;
-            font-size: 10px;
+            font-size: 14px;
             padding: 5px;
           }
         }
@@ -50,15 +49,15 @@
             color:#000;
         }
         @media #{$sp} {
-          font-size: 14px;
-          margin-bottom: 30px;
+          font-size: 18px;
+          margin-bottom: 45px;
         }
         > em {
           font-size: 37px;
           font-weight: bold;
           font-style: normal;
           @media #{$sp} {
-            font-size: 16px;
+            font-size: 24px;
           }
         }
       }
@@ -67,7 +66,7 @@
           width: 400px;
           margin: 0;
           @media #{$sp} {
-            margin: 0 auto;
+            margin-left: 12%;
             width: 85%;
             &:not(:last-child) {
               margin-bottom: 30px;
@@ -278,7 +277,38 @@
     .attend {
 
       .desc__img {
-        margin-bottom: 40px;
+        background: #fff;
+        padding: 30px;
+        width: 75%;
+        margin: 0 auto 40px;
+        position: relative;
+        @media #{$sp} {
+          margin-bottom: 20px;
+          padding: 15px 15px 15px 40px;
+          width: 700px;
+        }
+        &::before {
+          content: "";
+          position: absolute;
+          left: -65px;
+          bottom: 0;
+          width: 73px;
+          height: 246px;
+          background: url("../img/pages/lady.svg") 50% / contain no-repeat;
+          @media #{$sp} {
+            left: 0;
+            width: 30px;
+            height: 123px;
+          }
+        }
+        &--link {
+          color: #F7701B;
+          text-decoration: underline;
+          margin-top: 15px;
+          &:hover {
+            text-decoration: none;
+          }
+        }
       }
 
       .attention {
@@ -324,8 +354,16 @@
 
     .simulation {
         .desc__img {
-            margin-bottom: 40px;
+          background: #fff;
+          padding: 60px 60px 40px;
+          width: 75%;
+          margin: 0 auto 40px;
+          @media #{$sp} {
+            margin-bottom: 20px;
+            padding: 30px 30px 20px;
+            width: 700px;
           }
+        }
     
           .attention {
             background: #fff url("../img/pages/icon-loudspeaker.png") center left 16px / 164px 120px no-repeat;

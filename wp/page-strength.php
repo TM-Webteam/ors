@@ -10,11 +10,9 @@ get_header(); ?>
   <section class="hero">
     <div class="containers core">
       <div class="hero__box">
-        <h1>
-          <div class="ttl-primary">当社の強み</div>
-          <div class="hero__lead">片持ち屋根による利便性の高さと、<br class="sp-only">それを可能にしている高い構造技術力、<br class="pc-only">
-            はじめての方でも安心のフルサポート力が当社の強みです。</div>
-        </h1>
+        <h1 class="ttl-primary">当社の強み</h1>
+        <div class="hero__lead">片持ち屋根による利便性の高さと、<br class="sp-only">それを可能にしている高い構造技術力、<br class="pc-only">
+          はじめての方でも安心のフルサポート力が当社の強みです。</div>
       </div>
     </div>
   </section>
@@ -24,8 +22,8 @@ get_header(); ?>
     <div class="containers">
       <div class="flex aiC sp-reverse item">
         <summary class="item__box">
-          <div class="item__box--num">強み1</div>
-          <h2 class="item__box--ttl">片持ち屋根のため駐車が<br class="sp-only">しやすい</h2>
+          <div class="item__box--num">強み 1</div>
+          <h2 class="item__box--ttl">片持ち屋根のため駐車が<br class="pc-only">しやすい</h2>
           <div class="item__box--txt">駐車スペース内に柱が配置することはないため自由にレイアウト可能であり、駐車のしやすさから利用者の利便性も高い点が特長です。また、駐車場の雨や日よけにもなります。
           </div>
         </summary>
@@ -35,7 +33,7 @@ get_header(); ?>
       <div class="flex aiC item">
         <figure class="item__img"><img src="<?php echo assets_path() ?>img/pages/img-strength02.png" alt="強み2 高い構造技術力"></figure>
         <summary class="item__box">
-          <div class="item__box--num">強み2</div>
+          <div class="item__box--num">強み 2</div>
           <h2 class="item__box--ttl">高い構造技術力</h2>
           <div class="item__box--txt">免震構造の第一人者である東京理科大高橋教授の設計による製品です。２３年４月任意評定を取得していますので大幅に建築確認申請が簡略化されます。</div>
         </summary>
@@ -43,8 +41,8 @@ get_header(); ?>
 
       <div class="flex aiC sp-reverse item">
         <summary class="item__box">
-          <div class="item__box--num">強み3</div>
-          <h2 class="item__box--ttl">設置・施工～建築確認申請<br class="sp-only">までフルサポート</h2>
+          <div class="item__box--num">強み 3</div>
+          <h2 class="item__box--ttl">設置・施工～建築確認申請まで<br class="sp-only">フルサポート</h2>
           <div class="item__box--txt">設置・施工はもちろん、建築確認申請のサポートまで行います。また必要に応じて、地盤調査などのサポートも可能です。</div>
         </summary>
         <figure class="item__img"><img src="<?php echo assets_path() ?>img/pages/img-strength03.png" alt="強み3 設置・施工～建築確認申請までフルサポート">
@@ -57,15 +55,14 @@ get_header(); ?>
     <div class="containers">
       <h2 class="ttl-secondary">東京理科大 高橋 治 教授考案の<br class="sp-only">ソーラーカーポート</h2>
       <div class="lead">BGPソーラーカーポートは東京理科大学 工学部建築学科の高橋治教授が考案・開発したソーラーカーポートです。<br>
-        横柱がないので駐車しやすいスマートなソーラーカーポートシステムであり、レイアウトの自由度や組み立て・解体が容易で<br
-          class="pc-only">工期が短縮できる点や、コンクリートを使用しないため、設置工事の際のCO2排出が無く、環境に優しい点が特長です。</div>
-
-      <ul class="attention-list">
-        <li><span class="border"><b>横柱がないので駐車しやすい</b></span>スマートなソーラーカーポートシステム</li>
-        <li>23年4月任意評定取得予定（片流れ型）<span class="arrow-to-right"><span class="border"><b>大幅に建築確認申請が簡略化！</b></span></span>
-        </li>
-      </ul>
-
+        横柱がないので駐車しやすいスマートなソーラーカーポートシステムであり、レイアウトの自由度や組み立て・解体が容易で<br class="pc-only">工期が短縮できる点や、コンクリートを使用しないため、設置工事の際のCO2排出が無く、環境に優しい点が特長です。</div>
+      <div class="middle">
+        <ul class="attention-list">
+          <li><span class="border"><b>横柱がないので駐車しやすい</b></span>スマートなソーラーカーポートシステム</li>
+          <li>23年4月任意評定取得予定（片流れ型）<span class="arrow-to-right"><span class="border"><b>大幅に建築確認申請が簡略化！</b></span></span>
+          </li>
+        </ul>
+      </div>
       <div class="profile">
         <div class="flex fS item">
           <figure class="item__img"><img src="<?php echo assets_path() ?>img/pages/img-strength04.png" alt="高橋 治 教授"></figure>
@@ -114,33 +111,33 @@ get_header(); ?>
         ソーラーカーポートの設置を<br class="sp-only">ワンストップでサポートいたします</h2>
       <ul class="flex gap20 card">
         <li class="card__box">
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon01.svg" alt="導入計画の策定"></figure>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/strength/icon01.svg" alt="導入計画の策定"></figure>
           <h3 class="card__box--ttl">導入計画の策定</h3>
           <ul class="card__box--list">
             <li>現地調査を行い、設置場所や設置台数の確認を精査</li>
-            <li>「期待できる発電量」<br>「電気代削減効果」を試算</li>
+            <li>「期待できる発電量」<br class="pc-only">「電気代削減効果」を試算</li>
           </ul>
         </li>
         <li class="card__box">
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon02.svg" alt="建築確認申請代行"></figure>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/strength/icon02.svg" alt="建築確認申請代行"></figure>
           <h3 class="card__box--ttl">建築確認申請代行</h3>
           <ul class="card__box--list">
             <li>建築確認申請作成・提出</li>
           </ul>
         </li>
         <li class="card__box">
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon03.svg" alt="設置・施工"></figure>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/strength/icon03.svg" alt="設置・施工"></figure>
           <h3 class="card__box--ttl">設置・施工</h3>
           <ul class="card__box--list">
             <li>地盤調査をもとにソーラーカーポートの詳細設計</li>
-            <li>ソーラーカーポートの<br>調達・工事</li>
+            <li>ソーラーカーポートの<br class="pc-only">調達・工事</li>
           </ul>
         </li>
         <li class="card__box">
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon04.svg" alt="保守・点検"></figure>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/strength/icon04.svg" alt="保守・点検"></figure>
           <h3 class="card__box--ttl">保守・点検</h3>
           <ul class="card__box--list">
-            <li>ソーラーカーポートの<br>年次点検</li>
+            <li>ソーラーカーポートの<br class="pc-only">年次点検</li>
             <li>定期電気メンテナンス</li>
           </ul>
         </li>
@@ -149,24 +146,7 @@ get_header(); ?>
   </section>
 
 
-  <section class="inquiry">
-    <div class="containers">
-      <h2 class="ttl-secondary cW">ソーラーカーポートの導入・<br class="sp-only">設置に関する<br>お問合せや簡易お見積り依頼は<br
-          class="sp-only">お気軽にご連絡ください。</h2>
-      <a href="<?php echo esc_url( home_url( '/' ) ); ?>contact/" class="more">お問合せ・簡易お見積り（無料）</a>
-      <div class="flex jcC gap20 aiC inquiry__tel">
-        <a href="tel:0120090720" class="tel">0120-09-0720</a>
-        <span>（平日：09:30～18:30）</span>
-      </div>
-      <summary class="flex aiC inquiry__box">
-        <div class="inquiry__box--txt">サービス資料やお役立ち資料を<br class="sp-only">ご希望の方はこちら</div>
-        <div class="flex inquiry__box--btn">
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/" class="more tiny bgW"><span>サービス資料</span></a>
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>whitepaper/" class="more tiny bgW"><span>お役立ち資料</span></a>
-        </div>
-      </summary>
-    </div>
-  </section>
+  <?php get_template_part( 'template-parts/inquiry' ); ?>
 
 </main>
 

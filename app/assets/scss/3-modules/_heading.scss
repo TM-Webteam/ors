@@ -112,7 +112,10 @@
 .ttl-tertiary {
 	font-size: 20px;
   font-weight: bold;
-  margin-bottom: 20px;
+  color: #F7701B;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #F7701B;
+  margin-bottom: 5px;
   @media #{$sp} {
     font-size: 16px;
     margin-bottom: 15px;

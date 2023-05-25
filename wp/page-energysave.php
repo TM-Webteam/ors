@@ -27,9 +27,15 @@ get_header(); ?>
   <section class="attend bg-beige">
     <div class="containers">
       <h2 class="ttl-secondary cB">電気料金の高騰に<br class="sp-only">お困りではございませんか？</h2>
-      <figure class="desc__img"><img src="<?php echo assets_path() ?>img/pages/img-energysave01.png" alt="電気料金の高騰にお困りではございませんか？"></figure>
+      <div class="scroll">
+        <figure class="desc__img">
+          <img src="<?php echo assets_path() ?>img/pages/img-energysave01.svg" alt="電気料金の高騰にお困りではございませんか？">
+          <a href="https://www.enecho.meti.go.jp/about/pamphlet/energy2022/002/#section1" target="_blank" class="desc__img--link">出典：経済産業省　資源エネルギー庁</a>
+        </figure>
+
+      </div>
       <div class="attention">
-        電気は「買う」だけでなく<span class="border"><b>「作る」ことでコスト削減する時代</b></span>です
+        電気は「買う」だけでなく<span class="marker"><b>「作る」ことでコスト削減する時代</b></span>です
       </div>
     </div>
   </section>
@@ -50,11 +56,13 @@ get_header(); ?>
 
   <section class="simulation bg-beige">
     <div class="containers">
-      <h2 class="ttl-secondary">ソーラーカーポートによる<br class="sp-only">電気代削減イメージ</h2>
-      <figure class="desc__img"><img src="<?php echo assets_path() ?>img/pages/img-energysave02.png" alt="はじめてのソーラーカーポート"></figure>
+      <h2 class="ttl-secondary cB">ソーラーカーポートによる<br class="sp-only">電気代削減イメージ</h2>
+      <div class="scroll">
+        <figure class="desc__img"><img src="<?php echo assets_path() ?>img/pages/img-energysave02.png" alt="はじめてのソーラーカーポート"></figure>
+      </div>
       <div class="attention">
-        自社で発電した電気は、<span class="border"><b>電気料金も燃料調整費も発生しません。</b></span><br>
-        従来の電気代の削減はもちろん、<br><span class="border"><b>電気代高騰のリスクにも備えることができます！</b></span>
+        自社で発電した電気は、<span class="marker"><b>電気料金も燃料調整費も発生しません。</b></span><br>
+        従来の電気代の削減はもちろん、<br><span class="marker"><b>電気代高騰のリスクにも備えることができます！</b></span>
       </div>
     </div>
   </section>
@@ -64,7 +72,7 @@ get_header(); ?>
       <div class="flex aiC jcC gap30 desc">
         <figure class="desc__img"><img src="<?php echo assets_path() ?>img/common/img-wp.png" alt="はじめてのソーラーカーポート"></figure>
         <summary class="desc__box">
-          <h3 class="desc__box--sub">詳細・料金が3分で分かる！<br>事業者向けソーラーカーポートの導入方法と必要な準備</h3>
+          <h3 class="desc__box--sub">事業者向けソーラーカーポートの導入方法と必要な準備</h3>
           <h2 class="desc__box--ttl">はじめてのソーラーカーポート</h2>
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/" class="more">ホワイトペーパーをダウンロード</a>
         </summary>
@@ -98,8 +106,8 @@ get_header(); ?>
           <div class="card__box--txt">片持ち屋根のため、駐車スペース内に柱が配置することはないため自由にレイアウト可能です。</div>
         </li>
       </ul>
-      <a href="#" class="more bgW">サービス詳細を見る</a>
-      <a href="#" class="flex aiC jcC gap60 wp-card">
+      <a href="<?php echo esc_url( home_url( '/' ) ); ?>bgp/#features" class="more bgW">サービス詳細を見る</a>
+      <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/" class="flex aiC jcC gap60 wp-card">
         <figure class="wp-card__img"><img src="<?php echo assets_path() ?>img/top/img-wp.jpg" alt="BGPソーラーカーポート"></figure>
         <summary class="wp-card__box">
           <div class="wp-card__box--sub">導入メリット・費用が3分で分かる！</div>
@@ -123,23 +131,7 @@ get_header(); ?>
     </div>
   </section>
 
-  <section class="inquiry">
-    <div class="containers">
-      <h2 class="ttl-secondary cW">ソーラーカーポートの導入・<br class="sp-only">設置に関する<br>お問合せや簡易お見積り依頼は<br class="sp-only">お気軽にご連絡ください。</h2>
-      <a href="<?php echo esc_url( home_url( '/' ) ); ?>contact/" class="more">お問合せ・簡易お見積り（無料）</a>
-      <div class="flex jcC gap20 aiC inquiry__tel">
-        <a href="tel:0120090720" class="tel">0120-09-0720</a>
-        <span>（平日：09:30～18:30）</span>
-      </div>
-      <summary class="flex aiC inquiry__box">
-        <div class="inquiry__box--txt">サービス資料やお役立ち資料を<br class="sp-only">ご希望の方はこちら</div>
-        <div class="flex inquiry__box--btn">
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/" class="more tiny bgW"><span>サービス資料</span></a>
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>whitepaper/" class="more tiny bgW"><span>お役立ち資料</span></a>
-        </div>
-      </summary>
-    </div>
-  </section>
+  <?php get_template_part( 'template-parts/inquiry' ); ?>
 
 </main>
 

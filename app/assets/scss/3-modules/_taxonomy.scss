@@ -6,7 +6,7 @@
 
 .article {
   &__ttl {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bold;
     margin-bottom: 30px;
     @media #{$sp} {
@@ -92,16 +92,15 @@
     }
   }
   &__toc {
-    border: 3px solid #F2F6FB;
+    border: 1px solid #50B4C8;
     padding: 30px;
     @media #{$sp} {
-      border: 2px solid #F2F6FB;
       padding: 15px;
     }
     &--ttl {
-      font-size: 20px;
+      font-size: 22px;
       font-weight: bold;
-      color: #0D5BAB;
+      color: #50B4C8;
       margin-bottom: 20px;
       @media #{$sp} {
         font-size: 16px;

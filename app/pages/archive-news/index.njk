@@ -19,66 +19,60 @@
 {# Main content #}
 {% block content %}
 
-<main>
+<main class="all-news">
 
-  <!-- ニュース一覧 -->
-  <section class="arc-news">
-    <div class="containers">
-      <h1 class="ttl-secondary non">お知らせ</h1>
-      <div class="item">
+  <section class="">
+    <div class="containers flex">
 
-        <a href="#" class="item__box">
-          <div class="flex gap20 fS aiC inherit item__box--date">
-            <time class="time">2021.3.8</time>
-            <span class="cat">お知らせ</span>
-          </div>
-          <summary class="item__box--ttl"><h3>お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。</h3></summary>
-        </a>
+      <!-- ニュース一覧 -->
+      <section class="main-conts arc-news">
 
-        <a href="#" class="item__box">
-          <div class="flex gap20 fS aiC inherit item__box--date">
-            <time class="time">2021.3.8</time>
-            <span class="cat">お知らせ</span>
-          </div>
-          <summary class="item__box--ttl"><h3>お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。</h3></summary>
-        </a>
+        <h1 class="ttl-secondary cB">お知らせ</h1>
+        <div class="item">
 
-        <a href="#" class="item__box">
-          <div class="flex gap20 fS aiC inherit item__box--date">
-            <time class="time">2021.3.8</time>
-            <span class="cat">お知らせ</span>
-          </div>
-          <summary class="item__box--ttl"><h3>お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。</h3></summary>
-        </a>
+          <a href="#" class="item__box">
+            <div class="flex gap20 fS aiC inherit item__box--date">
+              <time class="time">2021.3.8</time>
+              <span class="cat">お知らせ</span>
+            </div>
+            <summary class="item__box--ttl"><h3>10件お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。</h3></summary>
+          </a>
 
-        <a href="#" class="item__box">
-          <div class="flex gap20 fS aiC inherit item__box--date">
-            <time class="time">2021.3.8</time>
-            <span class="cat">お知らせ</span>
-          </div>
-          <summary class="item__box--ttl"><h3>お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。</h3></summary>
-        </a>
-
-        <a href="#" class="item__box">
-          <div class="flex gap20 fS aiC inherit item__box--date">
-            <time class="time">2021.3.8</time>
-            <span class="cat">お知らせ</span>
-          </div>
-          <summary class="item__box--ttl"><h3>お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。</h3></summary>
-        </a>
-				
-			</div>
-      <nav class="pagination">
-        <div class="nav-links">
-          <a class="prev page-numbers" href="#"><span></span></a>
-          <a class="page-numbers" href="#">1</a>
-          <span class="page-numbers current">2</span>
-          <a class="page-numbers" href="#">3</a>
-          <a class="page-numbers" href="#">4</a>
-          <a class="page-numbers" href="#">5</a>
-          <a class="next page-numbers" href="#"><span></span></a>
+          
+          
         </div>
-      </nav>
+
+        <nav class="pagination">
+          <div class="nav-links">
+            <a class="prev page-numbers" href="#"><span></span></a>
+            <a class="page-numbers" href="#">1</a>
+            <span class="page-numbers current">2</span>
+            <a class="page-numbers" href="#">3</a>
+            <a class="page-numbers" href="#">4</a>
+            <a class="page-numbers" href="#">5</a>
+            <a class="next page-numbers" href="#"><span></span></a>
+          </div>
+        </nav>
+
+      </section>
+
+      <!-- サイドメニュー -->
+      <aside class="side-nav">
+
+        <a href="/contact/" class="bnr-contact"><img src="/assets/img/common/bnr-contact.png" alt="お問合せ・簡易お見積り"></a>
+
+        <div class="catSearch">
+          <h3 class="ttl-tertiary">カテゴリで探す</h3>
+          <ul class="catSearch__list">
+            <li><a href="#">カテゴリ名が入ります</a></li>
+            <li><a href="#">カテゴリ名が入ります</a></li>
+            <li><a href="#">カテゴリ名が入ります</a></li>
+            <li><a href="#">カテゴリ名が入ります</a></li>
+          </ul>
+        </div>
+
+      </aside>
+
     </div>
   </section>
 

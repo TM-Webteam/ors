@@ -8,23 +8,26 @@
 .strength {
 
     .hero {
-      background: url("../img/pages/bg-hero-strength.png") no-repeat 50% / auto 100%;
-      height: 316px;
+      background: url("../img/pages/bg-hero-strength.png") 50% / cover no-repeat;
+      height: 320px;
       @media #{$sp} {
-        background: url("../img/pages/bg-hero-strength.png") no-repeat top center /  auto 100%;
         text-align: center;
         height: auto;
       }
       .containers {
         padding-top: 83px;
         @media #{$sp} {
-          padding: 150px 15px 35px;
+          padding: 20px 15px;
         }
       }
       .ttl-primary {
         font-size: 36px;
         margin-bottom: 28px;
         color: #fff;
+        @media #{$sp} {
+          font-size: 24px;
+          margin-bottom: 20px;
+        }
       }
       &__lead {
         font-size: 20px;
@@ -32,7 +35,7 @@
         color: #fff;
         @media #{$sp} {
           font-size: 14px;
-          margin-bottom: 30px;
+          margin-bottom: 0;
         }
         > em {
           font-size: 37px;
@@ -56,10 +59,17 @@
                 &--num {
                     font-size: 22px;
                     color: #F7701B;
+                    @media #{$sp} {
+                      font-size: 16px;
+                    }
                 }
                 &--ttl {
                     font-size: 26px;
                     margin-bottom: 12px;
+                    @media #{$sp} {
+                      font-size: 18px;
+                      text-align: center;
+                    }
                 }
             }
 
@@ -99,13 +109,23 @@
             text-align: left;
           }
         }
+
+        .middle {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+
   
         .attention-list {
           margin-bottom: 44px;
-          text-align: center;
           font-size: 22px;
           line-height: 33px;
           font-weight: bold;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
 
           @media #{$sp} {
             font-size: 16px;
@@ -243,10 +263,16 @@
                         font-weight: bold;
                         line-height: 30px;
                         margin-bottom: 15px;
+                        @media #{$sp} {
+                          font-size: 16px;
+                        }
                     }
 
                     &--txt {
                         font-size: 16px;
+                        @media #{$sp} {
+                          font-size: 14px;
+                        }
                     }
                 }
             }

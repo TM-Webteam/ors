@@ -22,14 +22,14 @@
       padding-left: 0;
     }
   }
-  &__ttl {
-    background: #14134C;
+  &__ttl, .zcwf_lblLeft .zcwf_title {
+    background: #50B4C8;
     text-align: center;
     color: #fff;
     font-size: 20px;
     font-weight: bold;
     padding: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    // box-shadow: 0 0 10px rgba(0,0,0,0.2);
     @media #{$sp} {
       font-size: 16px;
       padding: 10px;
@@ -45,7 +45,7 @@
   &__table {
     background: #F6F6F6;
     padding: 20px 70px 40px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    // box-shadow: 0 0 10px rgba(0,0,0,0.2);
     @media #{$sp} {
       padding: 15px;
     }
@@ -80,7 +80,7 @@
         }
         .item {
           display: inline-block;
-          font-weight: bold;
+          font-weight: 500;
         }
         .required,.optional {
           display: inline-block;
@@ -89,10 +89,14 @@
           padding: 0 5px;
           background: #FF0000;
           color: #fff;
-          border-radius: 3px;
+          border-radius: 11px;
         }
         .optional {
           background: #8D8D8D;
+          position: relative;
+          &::after {
+            content: "任意";
+          }
         }
       }
       td {
@@ -233,7 +237,10 @@
 .side-form {
   .form {
     &__table {
-      padding: 15px;
+      padding: 15px 30px 40px;
+      @media #{$sp} {
+        padding: 15px 15px 20px;
+      }
       col {
         &:first-child {
           width: 100%;
@@ -261,7 +268,7 @@
           }
         }
       }
-      .btn01.small {
+      .more.small {
         width: 100%;
       }
     }

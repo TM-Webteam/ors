@@ -11,8 +11,8 @@ get_header(); ?>
     <div class="containers">
       <h1 class="ttl-primary">BGPソーラーカーポート</h1>
       <ul class="attention-list">
-        <li><span class="border"><b>横柱がないので駐車しやすい</b></span>スマートなソーラーカーポートシステム</li>
-        <li><span class="border"><b>任意評定取得</b></span>により<span class="border"><b>大幅に建築確認申請が簡略化</span>可能！</li>
+        <li><span class="marker"><b>横柱がないので駐車しやすい</b></span>スマートな<br class="sp-only">ソーラーカーポートシステム</li>
+        <li><span class="marker"><b>任意評定取得</b></span>により<span class="marker"><b>大幅に建築確認申請が簡略化</b></span>可能！</li>
       </ul>
       <div class="hero__btn">
         <div class="ctabtn">
@@ -68,9 +68,7 @@ get_header(); ?>
           <h3 class="card__box--ttl">官公庁・地方自治体</h3>
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/pages/icon-bgp04.svg" alt="官公庁・地方自治体"></figure>
           <ul class="card__box--list">
-            <li>SDGsやRE100<br>
-              （Renewable Energy 100%）<br>
-              への取り組みを推進したい</li>
+            <li>SDGsやRE100<br><small>（Renewable Energy 100%）</small><br>への取り組みを推進したい</li>
           </ul>
         </li>
       </ul>
@@ -80,7 +78,7 @@ get_header(); ?>
   <section class="features bg-beige" id="features">
     <div class="containers">
       <h2 class="ttl-secondary">BGPソーラーカーポートの特長</h2>
-      <div class="lead">商業施設や工場をお持ちの事業者様に特化した<br class="sp-only">ソーラーカーポートです。</div>
+      <div class="lead">BGPソーラーカーポートは以下の4つの点で<br class="sp-only">優れています。</div>
       <ul class="flex gap20 card">
         <li class="card__box">
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon01.svg" alt="工期が短い"></figure>
@@ -93,8 +91,8 @@ get_header(); ?>
           <div class="card__box--txt">組み立ては容易に組み立てと解体が可能です。1～3日で設置、解体が可能です。</div>
         </li>
         <li class="card__box">
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon03.svg" alt="環境にやさしい"></figure>
-          <h3 class="card__box--ttl">環境にやさしい</h3>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon03.svg" alt="コンクリートを殆ど使用しない"></figure>
+          <h3 class="card__box--ttl">コンクリートを殆ど<br>使用しない</h3>
           <div class="card__box--txt">コンクリートを使用しないため、CO2削減に貢献できます。</div>
         </li>
         <li class="card__box">
@@ -117,10 +115,10 @@ get_header(); ?>
   <section class="product">
     <div class="containers">
       <h2 class="ttl-secondary">23年4月任意評定取得により建築確認申請が大幅に簡略化可能！</h2>
+      <div class="lead">ソーラーカーポートの設置には、建築確認申請が必要です。<br>当社では、建築確認申請の代行もトータルサポートいたします。</div>
       <ul class="flex jcA item">
         <li class="item__box">
-          <img src="<?php echo assets_path() ?>img/pages/before-bgp.png"
-            alt="建築確認申請の流れ  1. 建築確認申請書類の作成 2. 建築確認申請書類の提出 3. 検査機関・自治体による確認 4. 確認済証受領 設置工事開始">
+          <img src="<?php echo assets_path() ?>img/pages/before-bgp.png" alt="建築確認申請の流れ  1. 建築確認申請書類の作成 2. 建築確認申請書類の提出 3. 検査機関・自治体による確認 4. 確認済証受領 設置工事開始">
         </li>
         <li class="item__box">
           <img src="<?php echo assets_path() ?>img/pages/after-bgp.png" alt="BGPソーラーカーポートなら 任意評定取得（片流れ型）しているため建築確認申請が簡略化可能です！">
@@ -134,11 +132,11 @@ get_header(); ?>
       <h2 class="ttl-secondary">BGPソーラーカーポートの<br class="sp-only">完成イメージ図</h2>
       <div class="flex jcA item">
         <div class="item__box">
-          <h3 class="item__box--ttl">片流れタイプ</h3>
+          <h3 class="item__box--ttl"><b>片流れタイプ</b></h3>
           <figure class="item__box--img01"><img src="<?php echo assets_path() ?>img/pages/img-bgp01.png" alt="片流れタイプ"></figure>
         </div>
         <div class="item__box">
-          <h3 class="item__box--ttl">背中合わせタイプ</h3>
+          <h3 class="item__box--ttl"><b>背中合わせタイプ</b></h3>
           <figure class="item__box--img02"><img src="<?php echo assets_path() ?>img/pages/img-bgp02.png" alt="背中合わせタイプ"></figure>
         </div>
       </div>
@@ -149,9 +147,12 @@ get_header(); ?>
     <div class="containers">
       <h2 class="ttl-secondary">導入までの流れ</h2>
       <div class="flex jcA item">
-        <figure class="item__box--img"><img src="<?php echo assets_path() ?>img/pages/img-bgp03.png" alt="導入までの流れ"></figure>
+        <figure class="item__box--img">
+          <img src="<?php echo assets_path() ?>img/pages/img-bgp03.png" alt="導入までの流れ" class="pc-only">
+          <img src="<?php echo assets_path() ?>img/pages/img-bgp03_sp.png" alt="導入までの流れ" class="sp-only">
+        </figure>
       </div>
-      <a href="#" class="more bgW">詳しい情報を見る</a>
+      <a href="<?php echo esc_url( home_url( '/' ) ); ?>flow/" class="more bgW">詳しい情報を見る</a>
     </div>
   </section>
 
@@ -160,7 +161,7 @@ get_header(); ?>
       <h2 class="ttl-secondary">初めてご検討されるお客様でも<br>ソーラーカーポートの設置を<br class="sp-only">ワンストップでサポートいたします</h2>
       <ul class="flex gap20 card">
         <li class="card__box">
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon01.svg" alt="導入計画の策定"></figure>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/pages/icon01.svg" alt="導入計画の策定"></figure>
           <h3 class="card__box--ttl">導入計画の策定</h3>
           <ul class="card__box--list">
             <li>現地調査を行い、設置場所や設置台数の確認を精査</li>
@@ -168,14 +169,14 @@ get_header(); ?>
           </ul>
         </li>
         <li class="card__box">
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon02.svg" alt="建築確認申請代行"></figure>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/pages/icon02.svg" alt="建築確認申請代行"></figure>
           <h3 class="card__box--ttl">建築確認申請代行</h3>
           <ul class="card__box--list">
             <li>建築確認申請作成・提出</li>
           </ul>
         </li>
         <li class="card__box">
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon03.svg" alt="設置・施工"></figure>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/pages/icon03.svg" alt="設置・施工"></figure>
           <h3 class="card__box--ttl">設置・施工</h3>
           <ul class="card__box--list">
             <li>地盤調査をもとにソーラーカーポートの詳細設計</li>
@@ -183,7 +184,7 @@ get_header(); ?>
           </ul>
         </li>
         <li class="card__box">
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon04.svg" alt="保守・点検"></figure>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/pages/icon04.svg" alt="保守・点検"></figure>
           <h3 class="card__box--ttl">保守・点検</h3>
           <ul class="card__box--list">
             <li>ソーラーカーポートの<br>年次点検</li>
@@ -194,25 +195,7 @@ get_header(); ?>
     </div>
   </section>
 
-
-  <section class="inquiry">
-    <div class="containers">
-      <h2 class="ttl-secondary cW">ソーラーカーポートの導入・<br class="sp-only">設置に関する<br>お問合せや簡易お見積り依頼は<br
-          class="sp-only">お気軽にご連絡ください。</h2>
-      <a href="<?php echo esc_url( home_url( '/' ) ); ?>contact/" class="more">お問合せ・簡易お見積り（無料）</a>
-      <div class="flex jcC gap20 aiC inquiry__tel">
-        <a href="tel:0120090720" class="tel">0120-09-0720</a>
-        <span>（平日：09:30～18:30）</span>
-      </div>
-      <summary class="flex aiC inquiry__box">
-        <div class="inquiry__box--txt">サービス資料やお役立ち資料を<br class="sp-only">ご希望の方はこちら</div>
-        <div class="flex inquiry__box--btn">
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/" class="more tiny bgW"><span>サービス資料</span></a>
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>whitepaper/" class="more tiny bgW"><span>お役立ち資料</span></a>
-        </div>
-      </summary>
-    </div>
-  </section>
+  <?php get_template_part( 'template-parts/inquiry' ); ?>
 
 </main>
 
