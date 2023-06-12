@@ -8,7 +8,7 @@
 .bgp {
 
     .hero {
-      background: url("../img/bgp/bg-hero.webp") no-repeat 50% / cover;
+      background: url("../img/bgp/bg-hero.webp") no-repeat 40% 50% / cover;
       height: 511px;
       display: flex;
       flex-direction: column;
@@ -39,9 +39,9 @@
       }
       .attention-list {
         margin-bottom: 67px;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 1.8;
-        font-weight: 500;
+        font-weight: 400;
         @media #{$sp} {
             padding: 8px;
             background-color: rgba(255,255,255,.6);
@@ -83,7 +83,7 @@
           >b {
               position: relative;
               z-index: 1;
-              font-size: 20px;
+              font-size: 22px;
               @media #{$sp} {
                 font-size: 16px;
               }
@@ -355,7 +355,7 @@
               }
             }
             &__box {
-              width: 37%;
+              width: 45%;
               text-align: center;
               @media #{$sp} {
                 width: 100%;

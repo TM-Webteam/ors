@@ -127,6 +127,18 @@
         margin: auto;
       }
     }
+    ul {
+      padding-left: 1.5em;
+      li {
+        list-style: disc;
+      }
+    }
+    ol {
+      padding-left: 1.5em;
+      li {
+        list-style: decimal;
+      }
+    }
   }
   &__img {
     margin-bottom: 30px;

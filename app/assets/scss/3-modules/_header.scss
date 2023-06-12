@@ -17,10 +17,10 @@ header {
   .in {
     &__logo {
       padding: 0 30px;
-      width: 350px;
+      width: 420px;
       @media #{$sp} {
         padding: 10px;
-        width: 200px;
+        width: 260px;
       }
     }
     &__nav {
@@ -117,8 +117,9 @@ header {
           .mega {
             &__parent {
               width: 20%;
-              background: linear-gradient(135deg, #F6FBFC, #E5F4F7);
-              color: #50B4C8;
+              // background: linear-gradient(135deg, #F6FBFC, #E5F4F7);
+              background: #50B4C8;
+              color: #fff;
               display: flex;
               flex-direction: column;
               justify-content: center;

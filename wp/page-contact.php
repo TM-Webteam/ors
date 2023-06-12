@@ -6,7 +6,7 @@
     <div class="containers">
       <div class="hero03__box">
         <h1 class="ttl-primary-lower">お問合せ・簡易お見積り</h1>
-        <div class="lead">BGPソーラーカーポートに関するお問合せ・<br class="sp-only">ご相談はお気軽にご連絡ください。</div>
+        <div class="lead">ソーラーカーポートすっきりGXに関するお問合せ・<br class="sp-only">ご相談はお気軽にご連絡ください。</div>
       </div>
     </div>
   </section>

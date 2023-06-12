@@ -54,8 +54,7 @@ get_header(); ?>
   <section class="product">
     <div class="containers">
       <h2 class="ttl-secondary">東京理科大 高橋 治 教授考案の<br class="sp-only">ソーラーカーポート</h2>
-      <div class="lead">BGPソーラーカーポートは東京理科大学 工学部建築学科の高橋治教授が考案・開発したソーラーカーポートです。<br>
-        横柱がないので駐車しやすいスマートなソーラーカーポートシステムであり、レイアウトの自由度や組み立て・解体が容易で<br class="pc-only">工期が短縮できる点や、コンクリートを使用しないため、設置工事の際のCO2排出が無く、環境に優しい点が特長です。</div>
+      <div class="lead">ソーラーカーポートすっきりGXは東京理科大学 工学部建築学科の高橋治教授が考案・開発したソーラーカーポートです。<br>横柱がないので駐車しやすいスマートなソーラーカーポートシステムであり、レイアウトの自由度や組み立て・解体が容易で<br class="pc-only">工期が短縮できる点や、コンクリートを使用しないため、設置工事の際のCO2排出が無く、環境に優しい点が特長です。</div>
       <div class="middle">
         <ul class="attention-list">
           <li><span class="border"><b>横柱がないので駐車しやすい</b></span>スマートなソーラーカーポートシステム</li>
@@ -116,6 +115,9 @@ get_header(); ?>
           <ul class="card__box--list">
             <li>現地調査を行い、設置場所や設置台数の確認を精査</li>
             <li>「期待できる発電量」<br class="pc-only">「電気代削減効果」を試算</li>
+            <li>設置に伴うお見積り</li>
+            <li>補助金審査</li>
+            <li>経済産業局への事業計画認定</li>
           </ul>
         </li>
         <li class="card__box">

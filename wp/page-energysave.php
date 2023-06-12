@@ -15,7 +15,7 @@ get_header(); ?>
       <div class="hero__btn">
         <div class="ctabtn">
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/" class="more core wp-thumb">
-            <div class="balloon"><span class="balloon__txt balloon__txt--cLBeige">製品の特長や料金が3分で分かる！</span></div>
+            <div class="balloon"><span class="balloon__txt balloon__txt--cLBeige">製品の特長やメリットが3分で分かる！</span></div>
             サービス資料をダウンロード
           </a>
         </div>
@@ -74,7 +74,7 @@ get_header(); ?>
         <summary class="desc__box">
           <h3 class="desc__box--sub">事業者向けソーラーカーポートの導入方法と必要な準備</h3>
           <h2 class="desc__box--ttl">はじめてのソーラーカーポート</h2>
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/" class="more">ホワイトペーパーをダウンロード</a>
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>whitepaper/start_solar_carport/" class="more">ホワイトペーパーをダウンロード</a>
         </summary>
       </div>
     </div>
@@ -82,7 +82,7 @@ get_header(); ?>
 
   <section class="features bg-beige">
     <div class="containers">
-      <h2 class="ttl-secondary">BGPソーラーカーポートの特長</h2>
+      <h2 class="ttl-secondary">ソーラーカーポートすっきりGXの特長</h2>
       <div class="lead">商業施設や工場をお持ちの事業者様に<br class="sp-only">特化したソーラーカーポートです。</div>
       <ul class="flex gap20 card">
         <li class="card__box">
@@ -98,7 +98,7 @@ get_header(); ?>
         <li class="card__box">
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon03.svg" alt="環境にやさしい"></figure>
           <h3 class="card__box--ttl">環境にやさしい</h3>
-          <div class="card__box--txt">コンクリートを使用しないため、CO2削減に貢献できます。</div>
+          <div class="card__box--txt">コンクリートをほとんど使用しないため、CO2削減に貢献できます。</div>
         </li>
         <li class="card__box">
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon04.svg" alt="レイアウトの自由度"></figure>
@@ -108,10 +108,10 @@ get_header(); ?>
       </ul>
       <a href="<?php echo esc_url( home_url( '/' ) ); ?>bgp/#features" class="more bgW">サービス詳細を見る</a>
       <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/" class="flex aiC jcC gap60 wp-card">
-        <figure class="wp-card__img"><img src="<?php echo assets_path() ?>img/top/img-wp.jpg" alt="BGPソーラーカーポート"></figure>
+        <figure class="wp-card__img"><img src="<?php echo assets_path() ?>img/top/img-wp.jpg" alt="ソーラーカーポートすっきりGX"></figure>
         <summary class="wp-card__box">
-          <div class="wp-card__box--sub">導入メリット・費用が3分で分かる！</div>
-          <h3 class="wp-card__box--ttl">BGPソーラーカーポート</h3>
+          <div class="wp-card__box--sub">製品の特長・メリットが3分で分かる！</div>
+          <h3 class="wp-card__box--ttl">ソーラーカーポートすっきりGX</h3>
           <div class="more">サービス資料をダウンロード</div>
         </summary>
       </a>

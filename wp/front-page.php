@@ -11,12 +11,12 @@
         <li class="cat">官公庁・地方自治体</li>
       </ul>
       <div class="hero__sub">事業者様・自治体様向け</div>
-      <h1 class="ttl-primary">BGPソーラーカーポート</h1>
+      <h1 class="ttl-primary">ソーラーカーポートすっきりGX</h1>
       <div class="hero__lead"><span>駐車場スペース</span>を活用し、<br class="pc-only"><span>「脱炭素」</span>の取り組みや<span>「電気代削減」</span>を実現！</div>
       <div class="hero__btn">
         <div class="ctabtn">
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/" class="more core wp-thumb">
-            <div class="balloon"><span class="balloon__txt">製品の特長や料金が3分で分かる！</span></div>
+            <div class="balloon"><span class="balloon__txt">製品の特長やメリットが3分で分かる！</span></div>
             サービス資料をダウンロード
           </a>
         </div>
@@ -26,7 +26,7 @@
 
   <section class="product">
     <div class="containers">
-      <h2 class="ttl-secondary">ソーラーカーポートとは</h2>
+      <h2 class="ttl-secondary">現状の太陽光発電の課題</h2>
       <div class="lead">ソーラーカーポートとは、柱と屋根で構成された車庫に太陽光パネルを設置するタイプの太陽光発電です。<br>空き地や建物屋根上だけでは十分な再エネ電力を得られなくなっている今、<br>駐車場に設置できるソーラーカーポートに注目が集まっています。</div>
       <ul class="flex jcA item">
         <li class="item__box">
@@ -36,7 +36,7 @@
           <img src="<?php echo assets_path() ?>img/top/after.png" alt="ソーラーカーポート">
         </li>
       </ul>
-      <div class="txt-link"><a href="<?php echo esc_url( home_url( '/' ) ); ?>bgp/#about">ソーラーカーポートとは？<br class="sp-only">導入のメリットや種類をご紹介</a></div>
+      <div class="txt-link"><a href="<?php echo esc_url( home_url( '/' ) ); ?>column/solar-carport-summary/">ソーラーカーポートとは？<br class="sp-only">導入のメリットや種類をご紹介</a></div>
     </div>
   </section>
 
@@ -45,9 +45,9 @@
       <div class="flex aiC jcC gap30 desc">
         <figure class="desc__img"><img src="<?php echo assets_path() ?>img/common/img-wp.png" alt="はじめてのソーラーカーポート"></figure>
         <summary class="desc__box">
-          <h3 class="desc__box--sub">詳細・料金が3分で分かる！<br>事業者向けソーラーカーポートの導入方法と必要な準備</h3>
+          <h3 class="desc__box--sub">導入メリットが3分で分かる！<br>事業者向けソーラーカーポートの導入方法と必要な準備</h3>
           <h2 class="desc__box--ttl">はじめてのソーラーカーポート</h2>
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/" class="more">ホワイトペーパーをダウンロード</a>
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>whitepaper/start_solar_carport/" class="more">ホワイトペーパーをダウンロード</a>
         </summary>
       </div>
     </div>
@@ -55,7 +55,7 @@
 
   <section class="features bg-beige">
     <div class="containers">
-      <h2 class="ttl-secondary">BGPソーラーカーポートの特長</h2>
+      <h2 class="ttl-secondary">ソーラーカーポートすっきりGXの特長</h2>
       <div class="lead">商業施設や工場をお持ちの事業者様に<br class="sp-only">特化したソーラーカーポートです。</div>
       <ul class="flex gap20 card">
         <li class="card__box">
@@ -71,7 +71,7 @@
         <li class="card__box">
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon03.svg" alt="環境にやさしい"></figure>
           <h3 class="card__box--ttl">環境にやさしい</h3>
-          <div class="card__box--txt">コンクリートを使用しないため、CO2削減に貢献できます。</div>
+          <div class="card__box--txt">コンクリートをほとんど使用しないため、CO2削減に貢献できます。</div>
         </li>
         <li class="card__box">
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon04.svg" alt="レイアウトの自由度"></figure>
@@ -81,10 +81,10 @@
       </ul>
       <a href="<?php echo esc_url( home_url( '/' ) ); ?>bgp/#features" class="more bgW">サービス詳細を見る</a>
       <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/" class="flex aiC jcC gap60 wp-card">
-        <figure class="wp-card__img"><img src="<?php echo assets_path() ?>img/top/img-wp.jpg" alt="BGPソーラーカーポート"></figure>
+        <figure class="wp-card__img"><img src="<?php echo assets_path() ?>img/top/img-wp.jpg" alt="ソーラーカーポートすっきりGX"></figure>
         <summary class="wp-card__box">
-          <div class="wp-card__box--sub">導入メリット・費用が3分で分かる！</div>
-          <h3 class="wp-card__box--ttl">BGPソーラーカーポート</h3>
+          <div class="wp-card__box--sub">製品の特長・メリットが3分で分かる！</div>
+          <h3 class="wp-card__box--ttl">ソーラーカーポートすっきりGX</h3>
           <div class="more">サービス資料をダウンロード</div>
         </summary>
       </a>
@@ -114,7 +114,7 @@
   <section class="sec-column bg-beige">
     <div class="containers">
       <h2 class="ttl-secondary">ソーラーカーポートの設置・導入に<br>関するお役立ち情報</h2>
-      <div class="flex gap30 grid">
+      <div class="flex jcC gap30 grid">
 
         <?php
         $paged = get_query_var('paged') ? get_query_var('paged') : 1;
@@ -166,12 +166,12 @@
         <li class="card__box">
           <h3 class="card__box--ttl core">高い構造技術力</h3>
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/common/img02.jpg" alt="高い構造技術力"></figure>
-          <div class="card__box--txt">東京理科大学発ベンチャー企業の株式会社サイエンス構造社製であり、23年4月任意評定取得（片流れ型）により大幅に建築確認申請が簡略化されます。</div>
+          <div class="card__box--txt">免震構造の第一人者である東京理科大高橋教授の設計による製品です。23年4月任意評定取得（片流れ型）により大幅に建築確認申請が簡略化されます。</div>
         </li>
         <li class="card__box">
           <h3 class="card__box--ttl core">設置・施工～建築確認申請まで<br>フルサポート</h3>
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/common/img03.jpg" alt="設置・施工～建築確認申請までフルサポート"></figure>
-          <div class="card__box--txt">製品開発元である株式会社サイエンス構造社にて設置・施工はもちろん、建築確認申請のサポートまで行います。</div>
+          <div class="card__box--txt">設置・施工はもちろん、建築確認申請のサポートまで行います。また必要に応じて、地盤調査などのサポートも可能です。</div>
         </li>
       </ul>
       <a href="<?php echo esc_url( home_url( '/' ) ); ?>strength/" class="more bgW">詳しい情報を見る</a>

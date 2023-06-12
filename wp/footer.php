@@ -2,9 +2,9 @@
   <div class="containers nav">
     <nav class="flex">
       <div class="nav__box">
-        <div class="nav__box--ttl">BGPソーラーカーポート</div>
+        <div class="nav__box--ttl">ソーラーカーポートすっきりGX</div>
         <ul class="nav__box--list">
-          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>bgp/">BGPソーラーカーポートとは</a></li>
+          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>bgp/">ソーラーカーポートすっきりGX</a></li>
           <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>flow/">導入までの流れ</a></li>
           <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>question/">よくあるご質問</a></li>
           <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>strength/">当社の強み</a></li>
@@ -36,7 +36,7 @@
   </div>
   <aside class="aside">
     <ul class="flex jcC inherit aside__nav">
-      <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
+      <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">会社概要</a></li>
       <li><a href="https://www.bgpro.jp/privacy/" target="_blank">個人情報保護ポリシー</a></li>
       <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>sitemap/">サイトマップ</a></li>
     </ul>

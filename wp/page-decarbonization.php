@@ -17,7 +17,7 @@ get_header(); ?>
       <div class="hero__btn">
         <div class="ctabtn">
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/" class="more core wp-thumb">
-            <div class="balloon"><span class="balloon__txt balloon__txt--cLBeige">製品の特長や料金が3分で分かる！</span></div>
+            <div class="balloon"><span class="balloon__txt balloon__txt--cLBeige">製品の特長やメリットが3分で分かる！</span></div>
             サービス資料をダウンロード
           </a>
         </div>
@@ -59,7 +59,7 @@ get_header(); ?>
           <dt>
             <h3 class="card__box--ttl">事業活動に伴うCO2排出量の削減ができる</h3>
           </dt>
-          <dd class="card__box--txt">再生可能エネルギーを活用することによってCO2を排出せずに発電が可能です。また、<b>施工時にもコンクリートが不要なため、設置時のCO2排出もありません。</b>
+          <dd class="card__box--txt">再生可能エネルギーを活用することによってCO2を排出せずに発電が可能です。また、<b>施工時にもコンクリートがほとんど不要なため、設置時のCO2排出もありません。</b>
           </dd>
         </dl>
         <figure class="sec02__img"><img src="<?php echo assets_path() ?>img/pages/img-decarbonization04.png" alt="事業活動に伴うCO2排出量の削減ができる">
@@ -108,9 +108,9 @@ get_header(); ?>
       <div class="flex aiC jcC gap30 desc">
         <figure class="desc__img"><img src="<?php echo assets_path() ?>img/common/img-wp.png" alt="はじめてのソーラーカーポート"></figure>
         <summary class="desc__box">
-          <h3 class="desc__box--sub">詳細・料金が3分で分かる！<br>事業者向けソーラーカーポートの導入方法と必要な準備</h3>
+          <h3 class="desc__box--sub">導入メリットが3分で分かる！<br>事業者向けソーラーカーポートの導入方法と必要な準備</h3>
           <h2 class="desc__box--ttl">はじめてのソーラーカーポート</h2>
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/" class="more">ホワイトペーパーをダウンロード</a>
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>whitepaper/start_solar_carport/" class="more">ホワイトペーパーをダウンロード</a>
         </summary>
       </div>
     </div>
@@ -128,6 +128,9 @@ get_header(); ?>
           <ul class="card__box--list">
             <li>現地調査を行い、設置場所や設置台数の確認を精査</li>
             <li>「期待できる発電量」<br>「電気代削減効果」を試算</li>
+            <li>設置に伴うお見積り</li>
+            <li>補助金審査</li>
+            <li>経済産業局への事業計画認定</li>
           </ul>
         </li>
         <li class="card__box">
@@ -160,7 +163,7 @@ get_header(); ?>
 
   <section class="strength card-type1">
     <div class="containers">
-      <h2 class="ttl-secondary">BGPソーラーカーポートの強み</h2>
+      <h2 class="ttl-secondary">ソーラーカーポートすっきりGXの強み</h2>
       <ul class="flex gap30 card">
         <li class="card__box">
           <h3 class="card__box--ttl core">片持ち屋根のため<br class="pc-only">駐車がしやすい</h3>
@@ -170,20 +173,20 @@ get_header(); ?>
         <li class="card__box">
           <h3 class="card__box--ttl core">高い構造技術力</h3>
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/common/img02.jpg" alt="高い構造技術力"></figure>
-          <div class="card__box--txt">東京理科大学発ベンチャー企業の株式会社サイエンス構造社製であり、23年4月任意評定取得（片流れ型）により大幅に建築確認申請が簡略化されます。</div>
+          <div class="card__box--txt">免震構造の第一人者である東京理科大高橋教授の設計による製品です。23年4月任意評定取得（片流れ型）により大幅に建築確認申請が簡略化されます。</div>
         </li>
         <li class="card__box">
           <h3 class="card__box--ttl core">設置・施工～建築確認申請まで<br>フルサポート</h3>
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/common/img03.jpg" alt="設置・施工～建築確認申請までフルサポート"></figure>
-          <div class="card__box--txt">製品開発元である株式会社サイエンス構造社にて設置・施工はもちろん、建築確認申請のサポートまで行います。</div>
+          <div class="card__box--txt">設置・施工はもちろん、建築確認申請のサポートまで行います。また必要に応じて、地盤調査などのサポートも可能です。</div>
         </li>
       </ul>
       <a href="<?php echo esc_url( home_url( '/' ) ); ?>strength/" class="more bgW">詳しい情報を見る</a>
       <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/" class="flex aiC jcC gap60 wp-card">
-        <figure class="wp-card__img"><img src="<?php echo assets_path() ?>img/top/img-wp.jpg" alt="BGPソーラーカーポート"></figure>
+        <figure class="wp-card__img"><img src="<?php echo assets_path() ?>img/top/img-wp.jpg" alt="ソーラーカーポートすっきりGX"></figure>
         <summary class="wp-card__box">
-          <div class="wp-card__box--sub">導入メリット・費用が3分で分かる！</div>
-          <h3 class="wp-card__box--ttl">BGPソーラーカーポート</h3>
+          <div class="wp-card__box--sub">製品の特長・メリットが3分で分かる！</div>
+          <h3 class="wp-card__box--ttl">ソーラーカーポートすっきりGX</h3>
           <div class="more">サービス資料をダウンロード</div>
         </summary>
       </a>

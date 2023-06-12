@@ -24,6 +24,8 @@
               <li>現地調査を行い、設置場所や設置台数の確認を精査</li>
               <li>「期待できる発電量」「電気代削減効果」を試算</li>
               <li>設置に伴うお見積り</li>
+              <li>補助金審査</li>
+              <li>経済産業局への事業計画認定</li>
             </ul>
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>contact/" class="more small">お問合せ・簡易お見積り（無料）</a>
           </dd>
