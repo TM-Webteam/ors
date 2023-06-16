@@ -173,7 +173,7 @@ get_header(); ?>
         <li class="card__box">
           <h3 class="card__box--ttl core">高い構造技術力</h3>
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/common/img02.jpg" alt="高い構造技術力"></figure>
-          <div class="card__box--txt">免震構造の第一人者である東京理科大高橋教授の設計による製品です。23年4月任意評定取得（片流れ型）により大幅に建築確認申請が簡略化されます。</div>
+          <div class="card__box--txt">免震構造の第一人者である東京理科大高橋教授の設計による製品です。23年6月任意評価取得（片流れ型）により大幅に建築確認申請が簡略化されます。</div>
         </li>
         <li class="card__box">
           <h3 class="card__box--ttl core">設置・施工～建築確認申請まで<br>フルサポート</h3>

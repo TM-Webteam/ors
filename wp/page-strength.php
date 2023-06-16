@@ -35,7 +35,7 @@ get_header(); ?>
         <summary class="item__box">
           <div class="item__box--num">強み 2</div>
           <h2 class="item__box--ttl">高い構造技術力</h2>
-          <div class="item__box--txt">免震構造の第一人者である東京理科大高橋教授の設計による製品です。２３年４月任意評定を取得していますので大幅に建築確認申請が簡略化されます。</div>
+          <div class="item__box--txt">免震構造の第一人者である東京理科大高橋教授の設計による製品です。２３年６月任意評価を取得していますので大幅に建築確認申請が簡略化されます。</div>
         </summary>
       </div>
 
@@ -58,7 +58,7 @@ get_header(); ?>
       <div class="middle">
         <ul class="attention-list">
           <li><span class="border"><b>横柱がないので駐車しやすい</b></span>スマートなソーラーカーポートシステム</li>
-          <li>23年4月任意評定取得予定（片流れ型）<span class="arrow-to-right"><span class="border"><b>大幅に建築確認申請が簡略化！</b></span></span>
+          <li>23年6月任意評価取得予定（片流れ型）<span class="arrow-to-right"><span class="border"><b>大幅に建築確認申請が簡略化！</b></span></span>
           </li>
         </ul>
       </div>

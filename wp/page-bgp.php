@@ -12,7 +12,7 @@ get_header(); ?>
       <h1 class="ttl-primary">ソーラーカーポートすっきりGX</h1>
       <ul class="attention-list">
         <li><span class="marker"><b>横柱がないので駐車しやすい</b></span>スマートな<br class="sp-only">ソーラーカーポートシステム</li>
-        <li><span class="marker"><b>任意評定取得</b></span>により<span class="marker"><b>大幅に建築確認申請が簡略化</b></span>可能！</li>
+        <li><span class="marker"><b>任意評価取得</b></span>により<span class="marker"><b>大幅に建築確認申請が簡略化</b></span>可能！</li>
       </ul>
       <div class="hero__btn">
         <div class="ctabtn">
@@ -78,7 +78,7 @@ get_header(); ?>
   <section class="features bg-beige" id="features">
     <div class="containers">
       <h2 class="ttl-secondary">ソーラーカーポートすっきりGXの特長</h2>
-      <div class="lead">BGPソーラーカーポートは以下の4つの点で<br class="sp-only">優れています。</div>
+      <div class="lead">ソーラーカーポートすっきりGXは以下の4つの点で<br class="sp-only">優れています。</div>
       <ul class="flex gap20 card">
         <li class="card__box">
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/icon01.svg" alt="工期が短い"></figure>
@@ -114,14 +114,14 @@ get_header(); ?>
 
   <section class="product">
     <div class="containers">
-      <h2 class="ttl-secondary">23年4月任意評定取得により建築確認申請が大幅に簡略化可能！</h2>
+      <h2 class="ttl-secondary">23年6月任意評価取得により建築確認申請が大幅に簡略化可能！</h2>
       <div class="lead">ソーラーカーポートの設置には、建築確認申請が必要です。<br>当社では、建築確認申請の代行もトータルサポートいたします。</div>
       <ul class="flex jcA item">
         <li class="item__box">
           <img src="<?php echo assets_path() ?>img/pages/before-bgp.png" alt="建築確認申請の流れ  1. 建築確認申請書類の作成 2. 建築確認申請書類の提出 3. 検査機関・自治体による確認 4. 確認済証受領 設置工事開始">
         </li>
         <li class="item__box">
-          <img src="<?php echo assets_path() ?>img/pages/after-bgp.png" alt="BGPソーラーカーポートなら 任意評定取得（片流れ型）しているため建築確認申請が簡略化可能です！">
+          <img src="<?php echo assets_path() ?>img/pages/after-bgp.png" alt="ソーラーカーポートすっきりGXなら 任意評価取得（片流れ型）しているため建築確認申請が簡略化可能です！">
         </li>
       </ul>
     </div>

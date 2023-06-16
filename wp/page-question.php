@@ -21,11 +21,11 @@
 
       <dl>
         <dt class="question"><h2 class="question__ttl">どのエリアまで設置対応可能ですか？</h2></dt>
-        <dd class="answer">積雪50ｃｍ以下、風速40ｍ/ｓをクリアした設計になっています。<br>多雪地域以外、基準風速40ｍ/ｓ以下の地域で対応可能です。</dd>
+        <dd class="answer">積雪50ｃｍ以下、風速38ｍ/ｓをクリアした設計になっています。<br>多雪地域以外、基準風速38ｍ/ｓ以下の地域で対応可能です。</dd>
       </dl>
 
       <dl>
-        <dt class="question"><h2 class="question__ttl">設置にはどれくらい日数がかかりますか？</h2></dt>
+        <dt class="question"><h2 class="question__ttl">設置工事にはどれくらい時間がかかりますか？</h2></dt>
         <dd class="answer">最短1～3日で設置が可能です。</dd>
       </dl>
 
@@ -36,12 +36,12 @@
 
       <dl>
         <dt class="question"><h2 class="question__ttl">建築確認申請は必要ですか？</h2></dt>
-        <dd class="answer">必要です。<br>BGPソーラーカーポートは任意評定取得のため、大幅に簡略化可能です。<br>詳しくはお問合せください。</dd>
+        <dd class="answer">必要です。<br>ソーラーカーポートすっきりGXは任意評価取得のため、大幅に簡略化可能です。<br>詳しくはお問合せください。</dd>
       </dl>
 
       <dl>
         <dt class="question"><h2 class="question__ttl">補助金は利用できますか？</h2></dt>
-        <dd class="answer">国や地方自治体から補助金や優遇税制が出ています。<br>弊社にてサポート可能ですので、詳しくはお問合せください。</dd>
+        <dd class="answer">国や地方自治体から補助金や優遇税制が出ています。<br>弊社にて相談可能ですので、詳しくはお問合せください。</dd>
       </dl>
 
       <dl>

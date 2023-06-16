@@ -5,7 +5,7 @@
     <a href="<?php echo esc_url( home_url( '/' ) ); ?>contact/" class="more">お問合せ・簡易お見積り（無料）</a>
     <div class="flex jcC gap20 aiC inquiry__tel">
       <a href="tel:0120090720" class="tel">0120-09-0720</a>
-      <span>（平日：09:30～18:30）</span>
+      <span>（平日：9:00～18:00）</span>
     </div>
     <summary class="flex aiC inquiry__box">
       <div class="inquiry__box--txt">サービス資料やお役立ち資料を<br class="sp-only">ご希望の方はこちら</div>

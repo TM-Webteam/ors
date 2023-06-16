@@ -40,7 +40,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="in__logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo assets_path() ?>img/common/h-logo.svg" alt="BGPソーラーカーポート"></a></div>
       <nav class="in__nav pc-only">
         <ul class="flex jcE aiC">
-          <li><a href="tel:0120090720" class="tel">0120-09-0720</a>　（平日：9:30~18:30）</li>
+          <li><a href="tel:0120090720" class="tel">0120-09-0720</a>　（平日：9:00～18:00）</li>
           <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/" class="more tiny">サービス資料</a></li>
           <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact/" class="more tiny">お問合せ・簡易お見積り</a></li>
         </ul>
